@@ -63,7 +63,7 @@ window.onload=function(){
         context.drawImage(bird_image,bird.x,bird.y,bird.width,bird.height);
     }
      document.addEventListener("keydown",reset);
-     document.addEventListener("click",reset);
+     document.addEventListener("touchstart",reset);
       
      
     
@@ -155,6 +155,7 @@ pipes.push(downpipe);
     fly_velocity=-8;
     gravity=0.2;
    }
+
 
 
    
