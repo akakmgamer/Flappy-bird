@@ -4,8 +4,10 @@ body{
     width:100%;
     text-align:center;
     overflow:hidden;
+    touch-action:manipulation;
 }
 canvas{
     background-image:url("flappybirdbg.png");
 }
+
 
